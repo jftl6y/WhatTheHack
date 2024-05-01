@@ -8,6 +8,10 @@ A cloud engineer should have the right set of tools in order to be successful in
 
 ## Description
 
+**_NOTE:_** Due to the shortened duration of this hack, all of the steps in this hack can be completed from the Azure Portal.  Installing the components below is an **Optional** step, but if you want to develop locally you are free to do so.
+
+For this challenge, ensure that you are able to log in to the Azure Portal and can access the API Management instance assigned to your user.
+
 In this challenge we will be setting up all the tools needed to complete our challenges.
 
   - Install the recommended toolset as follows:
@@ -82,5 +86,6 @@ You can [create an Azure DevOps project](https://docs.microsoft.com/en-us/azure/
 ### Postman
 
 Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.  [Sign up for free](https://identity.getpostman.com/signup?_ga=2.238632832.125996110.1654669428-421004685.1654669428) to get started with Postman.
+
 
 [Back to Top](#challenge-00---preparing-your-development-environment)

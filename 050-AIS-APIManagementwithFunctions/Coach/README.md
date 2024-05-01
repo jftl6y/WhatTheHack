@@ -1,22 +1,24 @@
-# What The Hack - AIS - API Management with Function Apps - Coach Guide
+# What The Hack - AIS - API Management - Coach Guide
 
 ## Introduction
 
-Welcome to the coach's guide for the Azure Integration Services - API Management with Function Apps Hack. Here you will find links to specific guidance for coaches for each of the challenges.
+Welcome to the coach's guide for the Azure Integration Services - API Management Hack. Here you will find links to specific guidance for coaches for each of the challenges.
 
 **NOTE:** If you are a Hackathon participant, this is the answer guide. Don't cheat yourself by looking at these during the hack! Go learn something. :)
 
 ## Coach's Guides
 -  Challenge 0: **[Prepare your Development Environment](Solution-00.md)**
    - Get yourself ready to build your integration solution
--  Challenge 1: **[Provision an Integration Environment](Solution-01.md)**
-   - Create a bicep template that will provision a baseline integration environment.
--  Challenge 2: **[Deploy your Integration Environment](Solution-02.md)**
-   - Create a CI/CD pipeline to do automated deployment of your integration environment.
--  Challenge 3: **[Create Backend APIs](Solution-03.md)**
-   - Create backend APIs
--  Challenge 4: **[Secure Backend APIs](Solution-04.md)**
-   - Securing backend APIs by configuring them in the VNET or by using OAuth 2.0 authorization
+-  Challenge 1: **[Import and test APIs in API Management](Solution-01.md)**
+   - Import APIs to API Management.
+-  Challenge 2: **[Writing API Policies in API Management](Solution-02.md)**
+   - Write APIs to protect and manipulate the request/response.
+-  Challenge 3: **[Create API Product](Solution-03.md)**
+   - Package APIs into Products
+-  Challenge 4: **[Customizing and publishing the Developer Portal](Solution-04.md)**
+   - Customize the Developer Portal and demonstrate how developers can use it to discover, test and manage their subscription to APIs.
+-  Challenge 5: **[Integration with Entra ID](Solution-05.md)**
+    - Add Entra ID integration for user authentication
 
 ## Coach Prerequisites 
 
@@ -33,7 +35,7 @@ Always refer students to the [What The Hack website](https://aka.ms/wth) for the
 **NOTE:** Students should **not** be given a link to the What The Hack repo before or during a hack. The student guide does **NOT** have any links to the Coach's guide or the What The Hack repo on GitHub.  
 
 ### Additional Coach Prerequisites 
-- Visual Studio Code 1.63 or higher with Bicep extension
+- Visual Studio Code 1.63 or higher 
 - Azure CLI 2.20.0 or higher
 - Azure DevOps project or GitHub project
 
@@ -45,21 +47,18 @@ This hack requires students to use an account that have Owner access to an Azure
 
 - API Management Service
 - Azure Function Apps
-- Virtual Networks 
-- Private Endpoints
 
 Moreover, check that the account the students will use have the right permissions to be able to create new AAD application registrations (service principals).  If the student accounts do not have this permission, then ask if your AAD Global Administrator can allow it, or create app-registrations (service principals) on the student's behalf for the hack.  Steps on how do this can be found [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 
-## Suggested Hack Agenda 
-- Day 1
-	- Challenge 0 (1 hour)
-	- Challenge 1 (2 hours)
-	- Challenge 2 (1 hour)
-- Day 2
-	- Challenge 2 (1 hour)
- 	- Challenge 3 (1 hour)
- 	- Challenge 4 (1 hour)
+## Suggested (abbreviated) Hack Agenda 
+
+- Challenge 0 (30 minutes)
+- Challenge 1 (30 minutes)
+- Challenge 2 (1 hour)
+- Challenge 3 (30 minutes)
+- Challenge 4 (1 hour)
+- Challenge 5 (30 minutes)
 
 ## Repository Contents
 

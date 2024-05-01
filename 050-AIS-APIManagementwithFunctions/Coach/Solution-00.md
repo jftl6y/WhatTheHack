@@ -4,9 +4,10 @@
 
 ## Description
 
-You need to ensure that the students have prepared all the required tools such as:
+**_NOTE_**: Due to time constraints for this hack, for this challenge simply ensure students can log into the Azure Portal and can access their API Management instances
 
-- [Azure Subscription](https://azure.microsoft.com/en-us/free/) with at least Contributor access 
+Optionally, if students wish they can install the tooling below:
+
 - [Access to the Azure Portal](https://portal.azure.com/)
 - [Visual Studio Code](https://code.visualstudio.com/) - As of writing, the version used is **1.63**.
     - [Bicep CLI Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) - As of writing, the version used is **0.4.1124**.
