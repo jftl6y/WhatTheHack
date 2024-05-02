@@ -24,13 +24,13 @@ There are two scenarios you would like to prove:
 - For this challenge, locate the OpenAPI specification and import the specification into API Management
 - Demonstrate you are able to test each operation in the API Management API console
 
-### Scenario 02: Create an API application using Azure Functions
+### Scenario 02a: Create an API application using Azure Functions
 
 - Create an Azure Function with an HttpTrigger. The default scaffolding code is sufficient for the purposes of this hack, though feel free to play with the code.
   - **_NOTE_** If you are developing your function in the portal, make sure to select the .NET runtime with the 6 (LTS) in-process model.
 - Test your Function App in the Function App test console
 
-### Scenario 03: Import the Azure Function as an API in API Management
+### Scenario 02b: Import the Azure Function as an API in API Management
 
 - In API Management, import the Azure Function you create into API Management
 - Test the GET and POST operations against your Azure Function in the API Management test console
