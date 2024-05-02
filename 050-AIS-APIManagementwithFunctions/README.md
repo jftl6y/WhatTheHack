@@ -2,8 +2,7 @@
 
 ## Introduction
 
-The Azure Integration Services (AIS) Hack will provide you a deep dive experience in building a solution that seamlessly connect apps to services whether hosted on premises or in the cloud.  This hack will enable participants to solve common business scenarios our customers face when building AIS from ground-up, from deploying, configuring and securing API management and its backend services. 
-
+The Azure Integration Services (AIS) Hack will provide you a deep dive experience in building a solution that seamlessly connect apps to services whether hosted on premises or in the cloud.  This hack will enable participants to solve common business scenarios our customers face when building AIS from ground-up, from deploying, configuring and securing API management and its backend services.
 
 ## Learning Objectives
 
@@ -35,7 +34,7 @@ In this hack, the participants will learn how to build an integration solution u
 - Your own Azure subscription with Owner access
 - Visual Studio Code
 - Azure CLI
-- Azure DevOps project 
+- Azure DevOps project
 
 ## Contributors
 
