@@ -28,7 +28,7 @@ You would like to provide a place for your developers to discover, subscribe to 
 
 ### Scenario 03: Publish your Product
 
-- Publish the Product you created in the prior challenge. 
+- Publish the Product you created in the prior challenge.
 - Refresh the Developer Portal as your test user. Do you see your Product now?
 - Subscribe to the Product. What happens now?
 

@@ -1,6 +1,5 @@
 # Challenge 03 - Create API Product
 
-
 [<Previous Challenge](./Challenge-02.md) - **[Home](../README.md)** - [Next Challenge>](./Challenge-04.md)
 
 ## Pre-requisites
@@ -11,7 +10,6 @@
 
 Now that you have imported some APIs into API Management, you want to package them into a Product to be consumed by your developers. In Azure API Management, a product contains one or more APIs, a usage quota, and the terms of use. After a product is published, developers can subscribe to the product and begin to use the product's APIs.
 
-
 ## Description
 
 - Create a Product for the APIs you have imported which require a subscription and approval.
@@ -20,12 +18,10 @@ Now that you have imported some APIs into API Management, you want to package th
 - Determine which Groups should be included in this product.
 - Do NOT Publish your Product yet.
 
-
 ## Success Criteria
 
 - You should have a Product created which contains the relevant APIs you wish to bundle.
 - Groups assigned to the Product should include groups other than Administrators.
-
 
 ## Learning Resources
 

@@ -1,6 +1,6 @@
 # Challenge 05 - Integration with Entra ID - Coach's Guide
 
-[<Previous Solution](./Solution-03.md) - **[Home](./README.md)** 
+[<Previous Solution](./Solution-03.md) - **[Home](./README.md)**
 
 ## Introduction
 
@@ -16,4 +16,4 @@ Th purpose of this hack is to demonstrate how to add an identity provider (Entra
 **_NOTE_** a Private browser window may be necessary to allow the user to enter their credentials and not have them automatically supplied by their other session.
 - An advanced challenge is to enable identity via an App Registration. This is doing what the "Enable Azure AD" button is doing, and is helpful to demonstrate how they may integrate with another OAuth provider besides Entra ID.
 
-[Back to Top](#challenge-04---integration-with-entra-id---coachs-guide)
+[Back to Top](#challenge-05---integration-with-entra-id---coachs-guide)

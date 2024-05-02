@@ -6,10 +6,9 @@
 
 The students should be able to import APIs from an OpenAPI Spec as well as from an Azure Function.  This prepares them for the second challenge where they will be asked to write policies for these APIs.
 
-
 ## Description
 
-Students will import APIs from the following two sources: 
+Students will import APIs from the following two sources:
 
 - [Scenario 01: Deploy a VNET-secured AIS environment](#scenario-01-import-an-api-from-an-api-using-an-openapi-specification)
 - [Scenario 02: Deploy an identity-secured AIS environment](#scenario-02-create-an-api-application-using-azure-functions)
@@ -21,9 +20,9 @@ Students will import APIs from the following two sources:
   1. GET /fact Gets a random fact
   1. GET /facts Get a list of facts
 
-Students should be able to import the API using the "Create from definition->OpenAPI" feature in API Management using the URL https://catfact.ninja/docs/api-docs.json
+Students should be able to import the API using the "Create from definition->OpenAPI" feature in API Management using the URL <https://catfact.ninja/docs/api-docs.json>
 
-### Scenario 02: Create an API application using Azure Functions 
+### Scenario 02: Create an API application using Azure Functions
 
 - Scenario 02: Students create an Azure Function with an HttpTrigger. The Azure Function scaffolding will create a simple API that will reflect back the name parameter passed in to the function app `GET` or will reflect back the name parameter passed in to the function app in the request body `POST`
 

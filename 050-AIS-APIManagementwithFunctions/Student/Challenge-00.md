@@ -14,17 +14,16 @@ For this challenge, ensure that you are able to log in to the Azure Portal and c
 
 In this challenge we will be setting up all the tools needed to complete our challenges.
 
-  - Install the recommended toolset as follows:
-    - [Azure Subscription](#azure-subscription)
-    - [Azure CLI](#azure-cli)
-    - [Visual Studio Code and Bicep extension](#visual-studio-code-and-bicep-extension)
-      - [Set default Azure subscription and resource group](#set-default-azure-subscription-and-resource-group)
-    - [Managing Cloud Resources](#managing-cloud-resources)
-      - [Azure Portal](#azure-portal)
-      - [Azure Cloud Shell](#azure-cloud-shell)
+- Install the recommended toolset as follows:
+  - [Azure Subscription](#azure-subscription)
+  - [Azure CLI](#azure-cli)
+  - [Visual Studio Code and Bicep extension](#visual-studio-code-and-bicep-extension)
+    - [Set default Azure subscription and resource group](#set-default-azure-subscription-and-resource-group)
+  - [Managing Cloud Resources](#managing-cloud-resources)
+    - [Azure Portal](#azure-portal)
+    - [Azure Cloud Shell](#azure-cloud-shell)
     - [Azure DevOps or GitHub](#azure-devops-or-github)
     - [Postman](#postman)
-
 
 ## Azure Subscription
 
@@ -40,25 +39,21 @@ Details can be found here on [free services](https://azure.microsoft.com/en-us/f
 
 If you have used Azure before, we will still try to limit cost of services by suspending, shutting down services, or destroy services before the end of the hackathon. You will still be able to use the free services up to their quotas.
 
-
 ### Azure CLI
 
 You also need to make sure that you have [installed the latest version of Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli). To do so, open [Visual Studio Code Terminal window](https://code.visualstudio.com/docs/editor/integrated-terminal) and run ```az upgrade```.
 
 This hack requires version **2.20.0 or higher**.
 
-
 ## Visual Studio Code and Bicep extension
 
 You will need to set-up your environment using Visual Studio Code with Bicep extension to develop and deploy Azure resources using Bicep files. See [Install Bicep tools](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/install) for installation details.
 
-
 This hack requires VS Code version **1.63 or higher**.
-
 
 ### Set default Azure subscription and resource group
 
-You can set your default Azure subscription and resource group by: 
+You can set your default Azure subscription and resource group by:
 
 - Sign-in by running ```az login``` in the VS Code Terminal
 - Set default subscription by running ```az account set --subscription "<subscription name or subscription id>"```
@@ -86,6 +81,5 @@ You can [create an Azure DevOps project](https://docs.microsoft.com/en-us/azure/
 ### Postman
 
 Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.  [Sign up for free](https://identity.getpostman.com/signup?_ga=2.238632832.125996110.1654669428-421004685.1654669428) to get started with Postman.
-
 
 [Back to Top](#challenge-00---preparing-your-development-environment)
