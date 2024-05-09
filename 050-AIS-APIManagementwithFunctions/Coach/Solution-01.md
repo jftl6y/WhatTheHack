@@ -10,12 +10,12 @@ The students should be able to import APIs from an OpenAPI Spec as well as from 
 
 Students will import APIs from the following two sources:
 
-- [Scenario 01: Deploy a VNET-secured AIS environment](#scenario-01-import-an-api-from-an-api-using-an-openapi-specification)
-- [Scenario 02: Deploy an identity-secured AIS environment](#scenario-02-create-an-api-application-using-azure-functions)
+- [Scenario 01: Import an API using OpenAPI specification](#scenario-01-import-an-api-from-an-api-using-an-openapi-specification)
+- [Scenario 02: Create an API application using Azure Functions](#scenario-02-create-an-api-application-using-azure-functions)
 
 ### Scenario 01: Import an API from an API using an OpenAPI specification
 
-- Scenario 01: Students can import APIs from the public facing Catfacts API at catfact.ninja. This is a simple API that consists of the following operations:  
+- Scenario 01: Students can import APIs from the public facing Catfacts API at <https://catfact.ninja>. This is a simple API that consists of the following operations:  
   1. GET /breeds Gets a list of breeds
   1. GET /fact Gets a random fact
   1. GET /facts Get a list of facts

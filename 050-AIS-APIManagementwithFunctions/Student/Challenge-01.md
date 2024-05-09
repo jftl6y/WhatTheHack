@@ -45,5 +45,6 @@ There are two scenarios you would like to prove:
 ## Advanced Challenges
 
 - Test your imported APIs outside of API Management using a tool such as Postman or PowerShell.
+- Find a different API and import it from [Public APIs](https://github.com/public-apis/public-apis)
 
 [Back to Top](#challenge-01---import-and-test-apis-in-api-management)
